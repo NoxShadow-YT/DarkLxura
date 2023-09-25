@@ -2,7 +2,9 @@
  EaglercraftX Developers
  ~~~~~~~~~~~~~~~~~~~~~~~
 
- lax1dude:
+ Created by Fatal, Designed by NoxShadow_YT.
+
+lax1dude:
  
   - Creator of Eaglercraft
   - Ported the Minecraft 1.8 client src to TeaVM
