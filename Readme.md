@@ -1,72 +1,36 @@
+# Dark Lxura Minecraft Client
 
-# DragonX
+Dark Lxura is a powerful hacked client for Eaglercraft, a cracked Minecraft server accessible through a web browser. This client is based on DragonXHack (source: [DragonXHack GitHub](https://github.com/FatalEagler/DragonXHack)), with several modifications and enhancements.
 
-A Hack Client For EaglercraftX 1.8.x
+**Note: It is recommended to download the client from the releases section rather than forking and compiling the repository yourself, as the latter may result in potential instability.**
 
+## Features and Modifications
+
+- Removed Cape Render: The cape rendering feature has been removed from Dark Lxura.
+- New Splash Text: Dark Lxura introduces a fresh set of splash texts that appear on the Minecraft main menu.
 
 ## Installation
 
-To Install This Client Or Compile it Run The Following Commands:
-```bash
-./CompileEPK.sh
-./Gradlew teavmc
-./MakeOfflineDownload.sh
-```
-    
-## Authors
+To install Dark Lxura, follow these steps:
 
-- [12etroo]((https://www.github.com/12etroo))
+1. Visit the [Releases](https://github.com/NoxShadow-YT/DarkLxura/releases) section of this repository.
+2. Download the latest release of Dark Lxura.
+3. Extract the downloaded files to a convenient location on your computer.
+4. Launch Eaglercraft and log in with your account details.
+5. Open Dark Lxura and follow the provided instructions to enable the client's features.
 
+## Disclaimer
 
-## FAQ
+Dark Lxura is a hacked client intended for educational and experimental purposes only. Usage of this client on official Minecraft servers or unauthorized platforms may violate their terms of service and result in penalties or bans. Use at your own risk.
 
-#### Why Did I Get This Source?
+## Contributing
 
-1: I Open-Sourced The Code.
+Contributions to Dark Lxura are welcome. If you have any ideas, bug fixes, or improvements, feel free to submit a pull request or open an issue on the GitHub repository.
 
-2: Eagler got boring
-3: yes 
+## License
 
-#### Did You Skid Anything In This Client?
+Dark Lxura is released under the [MIT License](https://opensource.org/licenses/MIT). See the [LICENSE](LICENSE) file for more details.
 
-Yes, i did. Here is a list of the things that i skidded:
+## Credits
 
-the module base
-
-event system
-
-command base
-
-clickGUI
-
-Resent Shit
-
-
-
-
-
-## Making Modules
-
-To Make A Basic Module Do The Following:
-```java
-    package proclient.module.player;
-
-    import proclient.module.Module;
-    import Proclient.module.Category
-    
-    public class Fly extends Module {
-        public Fly() {
-            super("Fly", KeyboardConstants.KEY_NONE, Category.PLAYER)
-        }
-        
-        public void onUpdate() {
-            if(this.isToggled()) {
-                Minecraft.getMinecraft().thePlayer.isFlying = true;
-            }
-        }
-    }
-        public void onDisable() {
-            Minecraft.getMinecraft().thePlayer.isFlying = false;
-        }
-```
-
+- DragonXHack: The foundation of Dark Lxura is based on the DragonXHack Minecraft client by [FatalEagler](https://github.com/FatalEagler). Thank you for providing the source code and inspiration for this project.
