@@ -8,7 +8,7 @@ Dark Lxura is a powerful hacked client for Eaglercraft, a cracked Minecraft serv
 
 - Removed Cape Render: The cape rendering feature has been removed from Dark Lxura.
 - New Splash Text: Dark Lxura introduces a fresh set of splash texts that appear on the Minecraft main menu.
-
+- New ClickGUI with uses a for-each loop instead of a traditional for loop for improved readability. It also introduces variables for the line height, background color, and outline color to make it easier to customize the appearance of the array list.
 ## Installation
 
 To install Dark Lxura, follow these steps:
